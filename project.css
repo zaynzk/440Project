@@ -1,0 +1,58 @@
+/*This file contains the css for visual aspects of the web application.*/
+header { background-color: #228B22; 
+		 text-align: center;
+		 min-height: 50px;
+		 font-size: 120%;
+		 border-bottom: 2px ridge #000033;}
+
+h1 { margin-bottom: 0; 
+    margin-top: 0;
+    font-family: cursive,serif,"times new roman"; 
+	letter-spacing: 0.25em;
+	padding-top:0.5em;
+	padding-bottom:0.5em;}
+	
+body { font-family: georgia, Arial, sans-serif;
+	   margin: 0;
+	   height:500%;}
+	
+
+section	{padding-left: 25%;
+		 padding-right: 25%;
+		 text-align:center;}
+		 
+h2 { color: #003399; 
+     font-family: cursive,serif,"times new roman";
+     text-shadow: 1px 1px 1px #CCC;	 }
+	 
+h3 { color : #0099FF; 
+    font-family: cursive,serif,"times new roman"; }	
+	
+main { padding: 20px;
+      display: block;
+	  background-color: #FFFF99;
+	  padding-left: 30px;
+	  overflow: auto;
+	  text-align: center;}
+	  
+footer { font-size: 75%;
+       font-style: italic;
+	   text-align: center;
+	   font-family: cursive,serif,"times new roman"; 
+	   padding: 2em;
+	   background-color: #FFFF99;}
+	   
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav ul { list-style-type: none;
+       margin: 0;
+	   padding-left: 0;
+	   font-size: 1.4em; }
+
+nav a { text-decoration: none; }
+nav li { display: inline;
+		padding-left: 1.5em;}
